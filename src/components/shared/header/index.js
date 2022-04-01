@@ -1,5 +1,5 @@
 import React from "react";
-import "./../../../styling/home.scss";
+import "./../../../styling/header.scss";
 
 import Logo from "./../../../assets/images/logo.png";
 

@@ -1,0 +1,74 @@
+.section_profile {
+  background: #1a263b;
+
+  .section_container {
+    background: white;
+    width: 80%;
+    margin: auto;
+    padding: 100px 50px;
+
+    .section_heading {
+      font-size: 48px;
+      line-height: 56px;
+      margin-bottom: 25px;
+    }
+
+    .section_profile_details {
+      .control_section {
+        margin-bottom: 20px;
+
+        .control_lbl {
+          display: block;
+          font-size: 14px;
+          font-weight: bold;
+          margin-bottom: 9px;
+        }
+        .control_input {
+          display: block;
+          font-size: 14px;
+          line-height: 2.5;
+          text-transform: none;
+          letter-spacing: normal;
+          width: 66%;
+          padding: 0 10px;
+        }
+        .control_select {
+          display: block;
+          font-size: 14px;
+          line-height: 2.5;
+          text-transform: none;
+          letter-spacing: normal;
+          width: 66%;
+          height: 40px;
+          option {
+          }
+        }
+      }
+
+      .edit_profile_container {
+        margin-top: 50px;
+
+        .btn_edit_profile,
+        .btn_cancel {
+          position: relative;
+          background-color: #ffffff;
+          color: #000;
+          border-radius: 500px;
+          font-size: 16px;
+          padding: 10px 15px;
+          cursor: pointer;
+          border: 1px solid #000000f2;
+          width: 14%;
+
+          &:hover {
+            background-color: #e62e2d;
+            color: white;
+          }
+        }
+        .btn_cancel {
+          margin-left: 18px;
+        }
+      }
+    }
+  }
+}

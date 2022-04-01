@@ -1,0 +1,45 @@
+header {
+  .section_header {
+    .navigation_container {
+      background: #121212;
+      display: flex;
+      flex-direction: row;
+      padding: 0px 5rem 0 3rem;
+
+      .logo_sec {
+        display: inline-block;
+        width: 70%;
+
+        .logo_area {
+          display: inline-block;
+          width: 23%;
+
+          .logo {
+            display: inline-block;
+            width: 100%;
+          }
+        }
+      }
+
+      .nav_sec {
+        width: 30%;
+
+        .nav_area {
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+          top: 50%;
+          transform: translate(0, -50%);
+
+          .a_nav {
+            .nav_link {
+              text-decoration: none;
+              color: white;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -10,6 +10,13 @@ import { passwordValidation } from "./utils/index";
 import { toast } from "react-toastify";
 import BackDrop from "./components/backDrop";
 import Header from "./components/shared/header";
+import Footer from "./components/shared/footer";
+import Home from "./pages/welcome/home";
+import Login from "./containers/login/login";
+import SignUp from "./containers/signUp/signup";
+import ProfileOverview from "./containers/profileOverview/profileOverview";
+import Profile from "./containers/profileOverview/profile";
+import ChangePassword from "./containers/changePassword/changePassword";
 
 const App = () => {
   useEffect(() => {
@@ -19,10 +26,16 @@ const App = () => {
 
   return (
     <>
-      {/* <Toast /> */}
+      <Toast />
       {/* <Loader /> */}
-      <Header />
-      {/* <h1>MyTune: music for everyone</h1> */}
+      <Home />
+      {/* <Login /> */}
+      {/* <SignUp /> */}
+      {/* <ProfileOverview /> */}
+      {/* <Profile /> */}
+      {/* <Header />
+      <ChangePassword />
+      <Footer /> */}
     </>
   );
 };
