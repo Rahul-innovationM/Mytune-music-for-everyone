@@ -17,6 +17,11 @@ import SignUp from "./containers/signUp/signup";
 import ProfileOverview from "./containers/profileOverview/profileOverview";
 import Profile from "./containers/profileOverview/profile";
 import ChangePassword from "./containers/changePassword/changePassword";
+import Dashboard from "./containers/dashboard";
+import SideMenu from "./containers/dashboard/sideMenu";
+import DashboardHeader from "./containers/dashboard/dashboardHeader";
+import BrowseCategory from "./containers/dashboard/browseCategory";
+import Artist from "./containers/dashboard/artist";
 
 const App = () => {
   useEffect(() => {
@@ -26,16 +31,23 @@ const App = () => {
 
   return (
     <>
-      <Toast />
+      {/* <Toast /> */}
       {/* <Loader /> */}
-      <Home />
+      {/* <Home /> */}
       {/* <Login /> */}
       {/* <SignUp /> */}
+      {/* <Header /> */}
       {/* <ProfileOverview /> */}
       {/* <Profile /> */}
-      {/* <Header />
-      <ChangePassword />
-      <Footer /> */}
+      {/* <ChangePassword /> */}
+      {/* <Footer /> */}
+
+      {/* <Dashboard /> */}
+      <DashboardHeader />
+      <SideMenu />
+      <Dashboard />
+      {/* <Artist /> */}
+      {/* <BrowseCategory /> */}
     </>
   );
 };

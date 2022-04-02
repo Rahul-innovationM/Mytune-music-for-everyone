@@ -1,0 +1,55 @@
+header {
+  .section_header {
+    background: #000000e0;
+    width: 80%;
+    margin-left: 20%;
+    padding: 16px 30px;
+    display: flex;
+
+    .search_container {
+      position: relative;
+      width: 50%;
+
+      .search_box {
+        font-size: 16px;
+        padding: 10px 10px 10px 50px;
+        border-radius: 30px;
+        border: none;
+        display: inline-block;
+        width: 80%;
+
+        // &:hover {
+        //   outline: none;
+        // }
+      }
+      .search_icon {
+        position: absolute;
+        top: 30.2%;
+        left: 4.1%;
+        width: 16px;
+      }
+    }
+
+    .profile_container {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+
+      .profile_img {
+        width: 6%;
+        margin-right: 12px;
+        img {
+          width: 100%;
+        }
+      }
+      .name_container {
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        .user_name {
+        }
+      }
+    }
+  }
+}
