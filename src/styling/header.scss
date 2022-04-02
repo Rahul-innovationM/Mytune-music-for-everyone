@@ -1,5 +1,5 @@
 header {
-  .section_header {
+  .section_main_header {
     .navigation_container {
       background: #121212;
       display: flex;
@@ -17,6 +17,7 @@ header {
           .logo {
             display: inline-block;
             width: 100%;
+            cursor: pointer;
           }
         }
       }

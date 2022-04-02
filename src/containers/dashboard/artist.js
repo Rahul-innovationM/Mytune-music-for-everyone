@@ -1,7 +1,6 @@
 import React from "react";
 import "./../../styling/artist.scss";
 
-import ArtistImg from "./../../assets/images/card.png";
 import Alka from "./../../assets/images/Artists/akla.png";
 import Ar from "./../../assets/images/Artists/ar .png";
 import Arijit from "./../../assets/images/Artists/arjit.png";
@@ -24,7 +23,11 @@ import Tulsi from "./../../assets/images/Artists/tulsi.png";
 import Vishal from "./../../assets/images/Artists/vishal.png";
 import Shreya from "./../../assets/images/Artists/sherya.png";
 
-const Artist = () => {
+const Artist = (props) => {
+  const showDetailsHandler = (lbl) => {
+    props.clicked(lbl);
+  };
+
   return (
     <main>
       <div className="section_artists">
@@ -34,7 +37,10 @@ const Artist = () => {
           </div>
 
           <div className="browse_body">
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Alka Yagnik")}
+            >
               <div className="artist_container">
                 <img src={Alka} alt="Artist" className="artist_img" />
               </div>
@@ -43,7 +49,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("A. R. Rahman")}
+            >
               <div className="artist_container">
                 <img src={Ar} alt="Artist" className="artist_img" />
               </div>
@@ -52,7 +61,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Arijit Singh")}
+            >
               <div className="artist_container">
                 <img src={Arijit} alt="Artist" className="artist_img" />
               </div>
@@ -61,7 +73,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Atif Aslam")}
+            >
               <div className="artist_container">
                 <img src={Atif} alt="Artist" className="artist_img" />
               </div>
@@ -70,7 +85,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Darshan Raval")}
+            >
               <div className="artist_container">
                 <img src={Darshan} alt="Artist" className="artist_img" />
               </div>
@@ -79,7 +97,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Diljit Dosanjh")}
+            >
               <div className="artist_container">
                 <img src={Diljeet} alt="Artist" className="artist_img" />
               </div>
@@ -88,7 +109,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Guru Randhawa")}
+            >
               <div className="artist_container">
                 <img src={Guru} alt="Artist" className="artist_img" />
               </div>
@@ -97,7 +121,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Harrdy Sandhu")}
+            >
               <div className="artist_container">
                 <img src={Harrdy} alt="Artist" className="artist_img" />
               </div>
@@ -106,7 +133,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Jubin Nautiyal")}
+            >
               <div className="artist_container">
                 <img src={Jubin} alt="Artist" className="artist_img" />
               </div>
@@ -115,7 +145,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Lata Mangeshkar")}
+            >
               <div className="artist_container">
                 <img src={Lata} alt="Artist" className="artist_img" />
               </div>
@@ -124,7 +157,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Mika Singh")}
+            >
               <div className="artist_container">
                 <img src={Mika} alt="Artist" className="artist_img" />
               </div>
@@ -133,7 +169,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Neeti Mohan")}
+            >
               <div className="artist_container">
                 <img src={Neeti} alt="Artist" className="artist_img" />
               </div>
@@ -142,7 +181,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Neha Kakkar")}
+            >
               <div className="artist_container">
                 <img src={Neha} alt="Artist" className="artist_img" />
               </div>
@@ -151,7 +193,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Palak Muchhal")}
+            >
               <div className="artist_container">
                 <img src={Palak} alt="Artist" className="artist_img" />
               </div>
@@ -160,7 +205,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Sachet Tandon")}
+            >
               <div className="artist_container">
                 <img src={Sachet} alt="Artist" className="artist_img" />
               </div>
@@ -169,7 +217,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Sharry Mann")}
+            >
               <div className="artist_container">
                 <img src={Sharry} alt="Artist" className="artist_img" />
               </div>
@@ -178,7 +229,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Sonu Nigam")}
+            >
               <div className="artist_container">
                 <img src={Sonu} alt="Artist" className="artist_img" />
               </div>
@@ -187,7 +241,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Sunidhi Chauhan")}
+            >
               <div className="artist_container">
                 <img src={Sunidhi} alt="Artist" className="artist_img" />
               </div>
@@ -196,7 +253,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Shreya Ghoshal")}
+            >
               <div className="artist_container">
                 <img src={Shreya} alt="Artist" className="artist_img" />
               </div>
@@ -205,7 +265,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Tulsi Kumar")}
+            >
               <div className="artist_container">
                 <img src={Tulsi} alt="Artist" className="artist_img" />
               </div>
@@ -214,7 +277,10 @@ const Artist = () => {
               </div>
             </div>
 
-            <div className="browse_card">
+            <div
+              className="browse_card"
+              onClick={() => showDetailsHandler("Vishal Mishra")}
+            >
               <div className="artist_container">
                 <img src={Vishal} alt="Artist" className="artist_img" />
               </div>

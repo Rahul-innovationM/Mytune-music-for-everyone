@@ -39,6 +39,7 @@ header {
       .profile_img {
         width: 6%;
         margin-right: 12px;
+        cursor: pointer;
         img {
           width: 100%;
         }
@@ -47,6 +48,7 @@ header {
         font-size: 14px;
         font-weight: bold;
         color: white;
+        cursor: pointer;
         .user_name {
         }
       }

@@ -6,11 +6,27 @@ main {
 
     .dashboard_container {
       padding: 20px 30px;
+
       .heading_sec {
         width: 100%;
+        display: flex;
+        align-items: center;
+
         h1 {
           color: white;
           font-size: 28px;
+          width: 90%;
+        }
+
+        .see_more {
+          background: red;
+          color: white;
+          padding: 10px;
+          border-radius: 25px;
+          font-size: 14px;
+          display: inline-block;
+          margin: 0 0 0 auto;
+          cursor: pointer;
         }
       }
 

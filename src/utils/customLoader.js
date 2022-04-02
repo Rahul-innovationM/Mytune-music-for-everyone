@@ -5,7 +5,7 @@ import "./../styling/customLoader.scss";
 const Loader = () => {
   return (
     <BackDrop>
-      <span class="loader"></span>
+      <span className="loader"></span>
     </BackDrop>
   );
 };

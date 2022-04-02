@@ -49,7 +49,8 @@
         margin-top: 50px;
 
         .btn_edit_profile,
-        .btn_cancel {
+        .btn_cancel,
+        .btn_pwd {
           position: relative;
           background-color: #ffffff;
           color: #000;
@@ -58,14 +59,15 @@
           padding: 10px 15px;
           cursor: pointer;
           border: 1px solid #000000f2;
-          width: 14%;
+          width: 18%;
 
           &:hover {
             background-color: #e62e2d;
             color: white;
           }
         }
-        .btn_cancel {
+        .btn_cancel,
+        .btn_pwd {
           margin-left: 18px;
         }
       }

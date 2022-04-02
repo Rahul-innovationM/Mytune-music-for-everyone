@@ -37,7 +37,8 @@
       .edit_profile_container {
         margin-top: 50px;
 
-        .btn_edit_profile {
+        .btn_edit_profile,
+        .btn_cancel {
           position: relative;
           background-color: #ffffff;
           color: #000;
@@ -52,6 +53,9 @@
             background-color: #e62e2d;
             color: white;
           }
+        }
+        .btn_cancel {
+          margin-left: 20px;
         }
       }
     }

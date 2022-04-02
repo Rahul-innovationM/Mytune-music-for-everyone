@@ -21,6 +21,10 @@ aside {
       .side_menus {
         color: white;
 
+        .active {
+          color: red;
+        }
+
         .side_menu {
           display: flex;
           font-size: 18px;

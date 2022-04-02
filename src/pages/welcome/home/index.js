@@ -2,8 +2,11 @@ import React from "react";
 import Footer from "../../../components/shared/footer";
 import Header from "../../../components/shared/header";
 import "./../../../styling/home.scss";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <Header />
@@ -18,7 +21,9 @@ const Home = () => {
             </p>
           </div>
           <div className="main_btn_container">
-            <button className="btn btn_main">Get MyTune Free</button>
+            <button className="btn btn_main" onClick={() => navigate(`/login`)}>
+              Get MyTune Free
+            </button>
           </div>
         </div>
       </main>
