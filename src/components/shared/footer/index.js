@@ -172,7 +172,7 @@ const Footer = () => {
             </div>
             <div className="copyright_section">
               <span className="copyright_icon"> &copy; &nbsp;</span>
-              <span className="copyright_name">2022 Spotify AB</span>
+              <span className="copyright_name">2022 MyTune</span>
             </div>
           </div>
         </div>

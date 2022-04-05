@@ -27,6 +27,7 @@ const App = () => {
   return (
     <>
       <Toast />
+      {/* <Loader /> */}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
